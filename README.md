@@ -206,7 +206,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Skewed Columns and Outliers](D:/XiU/Documents/Knowledge/cream/Skewed%20Columns%20and%20Outliers.png)
+
+![](https://files.mdnice.com/user/105908/0e9c3523-6e65-4faf-b34e-cdf6809d85a2.png)
+
 
 在箱线图中，异常值通常定义为不在 [$Q1 - 1.5 * IQR, Q3 + 1.5 * IQR$] 范围的数据点。这些点通常在箱线图中用单独的点或符号表示，并且可能不包括在箱体或须线的范围内。
 
@@ -240,7 +242,11 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Distribution of Columns with the Highest Frequency](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20Columns%20with%20the%20Highest%20Frequency.png)
+
+
+![](https://files.mdnice.com/user/105908/e1689374-9010-45d4-af1f-3464e2ef6ab5.png)
+
+
 
 
 
@@ -291,7 +297,9 @@ plt.ylabel('Frequency')
 plt.show()
 ```
 
-![Distribution of House Prices](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20House%20Prices.png)
+
+![](https://files.mdnice.com/user/105908/b9bca6ce-ed95-4701-be65-b0d719d3c370.png)
+
 
 ```py
 plt.figure(figsize = (10, 5))
@@ -304,7 +312,9 @@ plt.xticks(rotation = 45)
 plt.show()
 ```
 
-![Most Common House Prices](D:/XiU/Documents/Knowledge/cream/Most%20Common%20House%20Prices-1747496941944-7.png)
+
+![](https://files.mdnice.com/user/105908/5b00e392-cb9f-4858-ba42-94a03842a553.png)
+
 
 从上图可以发现，大多数家庭的房价在25,000到525,000美元之间。
 
@@ -354,7 +364,9 @@ plt.title("Distribution of sqft_living")
 plt.show()
 ```
 
-![Distribution of sqft_living](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20sqft_living.png)
+
+![](https://files.mdnice.com/user/105908/f7f78bed-48c5-4924-95d6-e8f07fbfed0a.png)
+
 
 从分布图中可以看出，大多数家庭住在面积在1,200到2,000平方英尺之间。
 
@@ -373,7 +385,9 @@ plt.title("Distribution of sqft_lot")
 plt.show()
 ```
 
-![Distribution of sqft_lot](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20sqft_lot.png)
+
+![](https://files.mdnice.com/user/105908/d8b9b6ed-f417-46a7-918a-db65184b03f2.png)
+
 
 大多数房屋的占地面积在 3,000 至 10,000 平方英尺之间。
 
@@ -418,7 +432,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Distribution_of_Floors](D:/XiU/Documents/Knowledge/cream/Distribution_of_Floors.png)
+
+![](https://files.mdnice.com/user/105908/896925f0-6feb-4224-a910-a9f03735e57c.png)
+
 
 从饼图出发（有点丑），有48.6%的一楼住户和38.1%的二楼住户，说明住户对低楼层的偏好，可能是由于便利性和可进入性。
 
@@ -443,7 +459,9 @@ plt.title('House Prices vs. Waterfront')
 plt.show()
 ```
 
-![House Prices vs. Waterfront](D:/XiU/Documents/Knowledge/cream/House%20Prices%20vs.%20Waterfront.png)
+
+![](https://files.mdnice.com/user/105908/47e4aa16-325c-4b9d-9e9b-f64947ecc4c0.png)
+
 
 滨水特征对房价影响很小。尽管滨水房产的价格往往会上涨，但在数据集中只有 11 个这样的条目。由于样本量较小，此功能对我们的模型预测没有显著影响。
 
@@ -467,7 +485,9 @@ plt.title('House Prices vs. View')
 plt.show()
 ```
 
-![House Prices vs. View](D:/XiU/Documents/Knowledge/cream/House%20Prices%20vs.%20View.png)
+
+![](https://files.mdnice.com/user/105908/7e3d94bc-c67e-4bce-b502-3b768ceab60e.png)
+
 
 虽说有评分的样本较少，但也能发现，随着景观分的增加，需求和房价往往会上升。
 
@@ -491,7 +511,9 @@ plt.title('House Prices vs. Contion')
 plt.show()
 ```
 
-![House Prices vs. Contion](D:/XiU/Documents/Knowledge/cream/House%20Prices%20vs.%20Contion.png)
+
+![](https://files.mdnice.com/user/105908/5563a4bb-1d4a-4367-81cd-36f6a9552506.png)
+
 
 大约有98%的房屋状况评级在3-5之间，表明大多数房屋处于较好的状况。并且通过上图可以发现，房屋状况越好，价格越高。
 
@@ -510,7 +532,9 @@ plt.title('Distribution of sqft_basement')
 plt.show()
 ```
 
-![Distribution of sqft_basement](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20sqft_basement.png)
+
+![](https://files.mdnice.com/user/105908/75c4ddc0-11e1-4147-b8de-b5d86cc0c7b2.png)
+
 
 大多数房屋都没有地下室。
 
@@ -529,7 +553,9 @@ plt.title('Distribution of sqft_above')
 plt.show()
 ```
 
-![Distribution of sqft_above](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20sqft_above.png)
+
+![](https://files.mdnice.com/user/105908/f3443aa9-21c8-4d7e-bc95-44f901570f2c.png)
+
 
 地上生活面积近似服从正态分布，并且大多少房屋地上生活面积在1,000到2,000平方英尺之间，这个范围代表了大多数房屋，表明了数据集中房屋尺寸的常见标准。
 
@@ -550,7 +576,9 @@ plt.title('Distribution of yr_built')
 plt.show()
 ```
 
-![Distribution of yr_built](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20yr_built.png)
+
+![](https://files.mdnice.com/user/105908/80d66915-0b86-454b-8543-374efde1af67.png)
+
 
 
 
@@ -567,7 +595,9 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-![Distribution of Year Renovated](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20Year%20Renovated.png)
+
+![](https://files.mdnice.com/user/105908/16aca69b-19fb-4444-999d-f87836fd972d.png)
+
 
 翻新0次的样本比较多，其余年份显示不明显，故去除0次的样本。
 
@@ -582,7 +612,9 @@ plt.ylabel('Count')
 plt.show()
 ```
 
-![Distribution of Year Renovated (Excluding 0)](D:/XiU/Documents/Knowledge/cream/Distribution%20of%20Year%20Renovated%20(Excluding%200).png)
+
+![](https://files.mdnice.com/user/105908/a8663963-7213-451f-aafb-1cef354272fd.png)
+
 
 大部分翻新时间集中在二十一世纪初。
 
@@ -614,7 +646,9 @@ plt.title('Most of City Distribution')
 plt.show()
 ```
 
-![Most of City Distribution](D:/XiU/Documents/Knowledge/cream/Most%20of%20City%20Distribution.png)
+
+![](https://files.mdnice.com/user/105908/3e54944a-0efc-4b4c-aeb3-a7e6afe3443c.png)
+
 
 数据集中的大部分房屋位于西雅图。这表明该数据集主要代表西雅图房地产市场，这可能会影响价格、需求和房产特征的趋势。
 
@@ -632,7 +666,9 @@ plt.title('Correlation Matrix of Numerical Features')
 plt.show()
 ```
 
-![Correlation Matrix of Numerical Features](D:/XiU/Documents/Knowledge/cream/Correlation%20Matrix%20of%20Numerical%20Features.png)
+
+![](https://files.mdnice.com/user/105908/f0af3290-1f02-4671-b2c6-339e0b4b074b.png)
+
 
 在进行进一步分析之前进行特征工程有助于通过创建更有意义的变量来提高模型性能。这一步骤涉及转换、组合或提取新特征以提高预测准确性。通过优化现有特征和创建新特征来优化数据集质量，以获得更好的洞察力和模型效率。
 
@@ -694,7 +730,9 @@ plt.legend(title = 'Price', loc = 'best')
 plt.show()
 ```
 
-![House Prices Based on Bedrooms and Bathrooms](D:/XiU/Documents/Knowledge/cream/House%20Prices%20Based%20on%20Bedrooms%20and%20Bathrooms-1747576735133-25.png)
+
+![](https://files.mdnice.com/user/105908/891266d9-759a-4279-9945-9f9e8fce9079.png)
+
 
 **介绍**：关于这个散点图，是关于价格、卧室数量、卫生间数量的关系，价格由颜色的强度和大小共同表示，颜色越深价格越贵，大小越大的点价格也更高。
 
@@ -718,7 +756,9 @@ plt.grid(True, linestyle='--', alpha=0.5)
 plt.show()
 ```
 
-![Relationship Between Price and Living Area](D:/XiU/Documents/Knowledge/cream/Relationship%20Between%20Price%20and%20Living%20Area.png)
+
+![](https://files.mdnice.com/user/105908/0da8cd3d-475d-4d7b-a7e6-7b4d99c7b4b8.png)
+
 
 根据上图可以说明价格和居住面积正相关，随着居住面积（平方英尺）的增加，价格（美元）也随之上升。这与房地产的基本原理相吻合，即较大的房屋通常能卖出更高的价格。
 
@@ -759,11 +799,17 @@ plot_top_cities(top_min_cities, 'min_price_per_sqft', 'Top 10 Cities with Lowest
 plot_top_cities(top_avg_cities, 'avg_price_per_sqft', 'Top 10 Cities with Avg Price per Sqft', 'orange')
 ```
 
-![Top 10 Cities with Highest Max Price per Sqft](D:/XiU/Documents/Knowledge/cream/Top%2010%20Cities%20with%20Highest%20Max%20Price%20per%20Sqft.png)
 
-![Top 10 Cities with Lowest Min Price per Sqft](D:/XiU/Documents/Knowledge/cream/Top%2010%20Cities%20with%20Lowest%20Min%20Price%20per%20Sqft.png)
+![](https://files.mdnice.com/user/105908/f0754b4a-9b24-4abf-9a50-6a5d6cec50fd.png)
 
-![Top 10 Cities with Avg Price per Sqft](D:/XiU/Documents/Knowledge/cream/Top%2010%20Cities%20with%20Avg%20Price%20per%20Sqft.png)
+
+
+![](https://files.mdnice.com/user/105908/90717022-6a47-4aef-baba-541dabbed0e5.png)
+
+
+
+![](https://files.mdnice.com/user/105908/e3ec7353-0e44-41a0-8971-8f496d809b89.png)
+
 
 梅瑟岛、西雅图、贝尔维亚的房价排前三，塔克维拉、耶鲁点、科温顿的房价排后三。
 
@@ -793,7 +839,9 @@ sns.despine()
 plt.show()
 ```
 
-![Average Price of Each City](D:/XiU/Documents/Knowledge/cream/Average%20Price%20of%20Each%20City.png)
+
+![](https://files.mdnice.com/user/105908/516ed7d1-13ec-4f6a-9d10-f2cf461cf985.png)
+
 
 柱状图表示每个城市的平均价格，y 轴列出了城市，x 轴列出了它们相应的平均价格。柱子根据价格强度进行颜色编码。  
 
@@ -836,7 +884,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Trend of SalePrice vs {column}](D:/XiU/Documents/Knowledge/cream/Trend%20of%20SalePrice%20vs%20%7Bcolumn%7D.png)
+
+![](https://files.mdnice.com/user/105908/59aff5a5-d00d-415b-a85d-ba58f9dcfeb5.png)
+
 
 - 1 销售价格与建造年份  
   - 1950 年以前的房屋价格波动较大，在 1940 年左右有明显的价格飙升。
@@ -876,7 +926,9 @@ plt.title("Boxplot of Price by Condition", fontsize=14)
 plt.show()
 ```
 
-![Boxplot of Price by Condition](D:/XiU/Documents/Knowledge/cream/Boxplot%20of%20Price%20by%20Condition.png)
+
+![](https://files.mdnice.com/user/105908/7e86cd30-0c41-4d66-ba36-4a2fec7e887f.png)
+
 
 箱型图可视化了房屋价格根据其状况评级（1 到 5）的分布情况。我们可以从数据中得出以下推断：  
 
@@ -918,7 +970,8 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Average Price by Basement Size Range](D:/XiU/Documents/Knowledge/cream/Average%20Price%20by%20Basement%20Size%20Range.png)
+
+![](https://files.mdnice.com/user/105908/5d2b3652-1da7-4a86-a361-5e195d2e362d.png)
 
 根据条形图“按地下室大小范围划分的平均房价”，以下是一些关键见解：  
 
@@ -957,7 +1010,9 @@ plt.savefig(r'D:\数据分析\ANSTProject\ahp\Average Home Prices by Renovation 
 plt.show()
 ```
 
-![Average Home Prices by Renovation Year](D:/XiU/Documents/Knowledge/cream/Average%20Home%20Prices%20by%20Renovation%20Year.png)
+
+![](https://files.mdnice.com/user/105908/1ffbe4a9-0098-4504-ba30-cf3e6c7e21e3.png)
+
 
 对其重新定义：0 → 从未翻新，1 → 已翻新
 
@@ -1145,7 +1200,9 @@ print(model_sm.summary())
 
 下面是剔除'waterfront' , 'renovation_age', 'renovation_status', 'yr_built' P值大于0.05后的回归结果。
 
-![image-20250518231919982](D:/XiU/Documents/Knowledge/cream/image-20250518231919982.png)
+
+![](https://files.mdnice.com/user/105908/7c073c2c-af01-4e76-b057-d788cc37c078.png)
+
 
 判定系数高达0.907，并且修正后的判定系数0.907，和原判定系数相同，且落入真值的预测值有0.908，精度较高。
 
@@ -1165,7 +1222,9 @@ plt.grid(True)
 plt.show()
 ```
 
-![aa](D:/XiU/Documents/Knowledge/cream/aa-1747581667624-2.png)
+
+![](https://files.mdnice.com/user/105908/542f5c5f-72b4-46ff-b1cd-60a367833d71.png)
+
 
 
 
@@ -1254,7 +1313,9 @@ grid_search = GridSearchCV(
 grid_search.fit(X_train, y_train)
 ```
 
-![image-20250519010019827](D:/XiU/Documents/Knowledge/cream/image-20250519010019827.png)
+
+![](https://files.mdnice.com/user/105908/eeb0f83e-db34-401e-8782-79b448328678.png)
+
 
 ```py
 y_pred = grid_search.best_estimator_.predict(X_test)
@@ -1304,7 +1365,9 @@ plt.savefig("XGBoost Feature Importance.png")
 plt.show()
 ```
 
-![XGBoost Feature Importance](D:/XiU/Documents/Knowledge/cream/XGBoost%20Feature%20Importance-1747639193331-2.png)
+
+![](https://files.mdnice.com/user/105908/323f7c02-e96c-4b34-80c4-0a2e0f116e56.png)
+
 
 接下来，我们将训练好的模型保存至本地，以便后续部署或进一步应用。同时，通过散点图展示实际房价与预测房价的关系：
 
@@ -1325,7 +1388,9 @@ plt.savefig(r"D:\数据分析\ANSTProject\ahp\Actual vs. Predicted House Prices.
 plt.show()
 ```
 
-![Actual vs. Predicted House Prices](D:/XiU/Documents/Knowledge/cream/Actual%20vs.%20Predicted%20House%20Prices.png)
+
+![](https://files.mdnice.com/user/105908/21123c8b-cb17-483f-9b9d-cab77a52258e.png)
+
 
 
 
@@ -1362,3 +1427,5 @@ print(f"Predicted Price: ${predict_house_price(sample_house):,.2f}")
 ```
 
 在上述变量值的预测中，结果为395,183.72美元。
+
+> 源代码点击原文获取
